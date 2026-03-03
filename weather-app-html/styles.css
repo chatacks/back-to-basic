@@ -64,7 +64,7 @@ body {
   border-radius: 15px;
   background-color: #fdfffe;
   color: #232323;
-  padding: 16px;
+  padding: 16px 16px 16px 45px;
   width: 100%;
 }
 
@@ -73,5 +73,16 @@ body {
 }
 
 .custom-input::placeholder {
+  color: #b1b8c0;
+}
+
+.input-container {
+  position: relative;
+}
+
+.search-input-icon {
+  position: absolute;
+  left: 10px;
+  top: 10.5px;
   color: #b1b8c0;
 }

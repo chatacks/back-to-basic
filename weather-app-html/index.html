@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
   <link rel="stylesheet" href="./styles.css">
 
 </head>
@@ -18,7 +20,12 @@
     <div class="left-column">
       <nav class="navbar-container">
         <img src="./images/logo.svg" alt="Clima Hoje">
-        <input class="custom-input" type="text" name="city" id="city" placeholder="Procure por cidades">
+        <div class="input-container">
+          <input class="custom-input" type="text" name="city" id="city" placeholder="Procure por cidades">
+          <span class="material-symbols-outlined search-input-icon">
+            search
+          </span>
+        </div>
       </nav>
 
       <div class="showcase-container">
