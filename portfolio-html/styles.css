@@ -28,7 +28,7 @@
   letter-spacing: 0.1rem;
   color: #fff;
   opacity: 50%;
-  transition: 0.5s;
+  transition: 0.5s ease;
 }
 
 .navbar-container>ul>li:hover {
@@ -60,7 +60,53 @@
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.25rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 1.5px solid #fff;
   padding: 0 5px 5px 5px;
   letter-spacing: 0.15rem;
+}
+
+/* conteudo sobre mim */
+.about-me-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.about-me-content>img {
+  width: 320px;
+  height: 320px;
+}
+
+.about-me-content>p {
+  color: #fff;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+/* utilidades */
+
+.main-container {
+  width: 100%;
+  background: #111;
+  padding: 120px 0;
+}
+
+.section-content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid #fff;
+  padding: 0 8px 8px 8px;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
 }
