@@ -6,7 +6,6 @@
 }
 
 /* navbar */
-
 .navbar-container {
   display: flex;
   width: 100%;
@@ -27,15 +26,17 @@
 .navbar-container>ul>li {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  color: #fff;
+  opacity: 50%;
+  transition: 0.5s;
 }
 
-.navbar-container>ul>li>a {
-  text-decoration: none;
-  color: white;
+.navbar-container>ul>li:hover {
+  cursor: pointer;
+  opacity: 100%;
 }
 
 /* showcase */
-
 .showcase-container {
   height: 100vh;
   display: flex;
@@ -43,6 +44,23 @@
   color: #fff;
   flex-direction: column;
   justify-content: center;
-  background: url(./images/showcase.jpg);
-  background-size: cover;
+  background: url(./images/showcase.jpg) center / cover;
+
+  /* overlay */
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: color;
+}
+
+.showcase-container>h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.showcase-container>p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #fff;
+  padding: 0 5px 5px 5px;
+  letter-spacing: 0.15rem;
 }
