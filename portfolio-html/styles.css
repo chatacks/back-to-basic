@@ -84,6 +84,41 @@
   text-align: justify;
 }
 
+/* habilidades */
+
+.skills-content {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.skills-content .skill-item:nth-child(2) {
+  margin: 0 50px;
+}
+
+.skill-item>span {
+  color: #fff;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.skill-item>p {
+  color: #fff;
+  line-height: 1.83rem;
+  opacity: 75%;
+}
+
 /* utilidades */
 
 .section-container {
