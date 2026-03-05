@@ -204,6 +204,25 @@
   margin-bottom: 30px;
 }
 
+/* roda no pé */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  width: 100%;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-container .social-items i {
+  margin-right: 25px;
+}
+
+.footer-container .social-items i:hover {
+  cursor: pointer;
+}
+
 /* utilidades */
 
 .section-container {
