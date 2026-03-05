@@ -51,7 +51,8 @@
   background-blend-mode: color;
 }
 
-.showcase-container>h1 {
+.showcase-container>h1,
+.thank-you-container>h1 {
   font-weight: 600;
   font-size: 4rem;
 }
@@ -85,7 +86,6 @@
 }
 
 /* habilidades */
-
 .skills-content {
   margin-top: 108px;
   display: flex;
@@ -188,7 +188,6 @@
 }
 
 /* formulário */
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -205,7 +204,6 @@
 }
 
 /* roda no pé */
-
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -223,8 +221,33 @@
   cursor: pointer;
 }
 
-/* utilidades */
+/* agradecimento */
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+  background: url(./images/showcase.jpg) center / cover;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.25);
+}
 
+.thank-you-container>a {
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+  border-bottom: 1.5px solid #fff;
+  padding: 0 5px 5px 5px;
+  letter-spacing: 0.15rem;
+}
+
+
+/* utilidades */
 .section-container {
   width: 100%;
   background: #111;
