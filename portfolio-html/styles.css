@@ -141,7 +141,6 @@
   order: 1;
 }
 
-
 .project-item {
   display: flex;
   align-items: center;
@@ -188,6 +187,23 @@
   font-weight: 500;
 }
 
+/* formulário */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 108px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form .form-input {
+  margin-bottom: 30px;
+}
+
 /* utilidades */
 
 .section-container {
@@ -213,4 +229,41 @@
   text-align: center;
   width: fit-content;
   margin: auto;
+}
+
+.form-input {
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #202020;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  resize: none;
+}
+
+.form-input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form-input:focus {
+  outline: thin solid rgba(255, 255, 255, 0.5);
+}
+
+.form-button {
+  border: none;
+  color: #fff;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.5s ease;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.form-button:hover {
+  background-color: #202020;
+  cursor: pointer;
 }
