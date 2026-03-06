@@ -64,6 +64,7 @@
   border-bottom: 1.5px solid #fff;
   padding: 0 5px 5px 5px;
   letter-spacing: 0.15rem;
+  margin-top: 15px;
 }
 
 /* conteudo sobre mim */
@@ -124,6 +125,12 @@
   margin-top: 118px;
 }
 
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
 .projects-content .project-item:nth-child(even),
 .projects-content .project-item:nth-child(even) {
   justify-content: flex-end;
@@ -141,11 +148,6 @@
   order: 1;
 }
 
-.project-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 50px;
-}
 
 .project-item-image {
   width: 300px;
@@ -175,13 +177,13 @@
   max-width: 600px;
 }
 
-.project-item p {
+.project-text p {
   color: #fff;
   line-height: 1.825rem;
   opacity: 75%;
 }
 
-.project-item h3 {
+.project-text h3 {
   color: #fff;
   font-size: 2.25rem;
   font-weight: 500;
@@ -231,7 +233,7 @@
   height: 100vh;
   background: url(./images/showcase.jpg) center / cover;
   background-blend-mode: color;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .thank-you-container>a {
