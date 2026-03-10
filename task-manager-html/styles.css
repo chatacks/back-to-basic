@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #221f2f;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  background-color: #ed2ff0;
+  width: 120px;
+  height: 120px;
+  left: 75%;
+  top: 20%;
+  filter: blur(90px);
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  background-color: #22a8cd;
+  width: 120px;
+  height: 120px;
+  left: 20%;
+  top: 75%;
+  filter: blur(90px);
+}
+
+.container {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 25px 30px;
+}
+
+.new-task-container {
+  background: rgba(0, 0, 0, 0.44);
+  backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.4rem 1.875rem rgba(0, 0, 0, 0.1);
+  padding: 1.875rem;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+}
+
+.task-container {
+  background: rgba(0, 0, 0, 0.44);
+  backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.4rem 1.875rem rgba(0, 0, 0, 0.1);
+  padding: 1.875rem;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.new-task-input {
+  border-radius: 0.25rem;
+  border: 2px solid #ebebeb;
+  font-size: 1rem;
+  height: 3.125rem;
+  padding: 0 1rem;
+  transition: all 0.375s;
+  width: 100%;
+}
+
+.new-task-input:hover {
+  border: 2px solid rgba(0, 0, 0, 0.44);
+}
+
+.new-task-input:focus {
+  outline-color: rgba(0, 0, 0, 0.1);
+}
+
+.new-task-button {
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 3.125rem;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: 0.375s all;
+  width: 100%;
+}
+
+.new-task-button:hover {
+  cursor: pointer;
+  background: #3E4070;
+}
