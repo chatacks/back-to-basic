@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>JS Calculator HTML</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="output-container">
+        <div class="previous-operand"></div>
+        <div class="current-operand"></div>
+      </div>
+      <button data-all-clear data-key="Escape" class="span-two">AC</button>
+      <button data-delete data-key="Backspace">DEL</button>
+      <button class="operator" data-key="/">÷</button>
+      <button data-number data-key="1">1</button>
+      <button data-number data-key="2">2</button>
+      <button data-number data-key="3">3</button>
+      <button class="operator" data-key="*">*</button>
+      <button data-number data-key="4">4</button>
+      <button data-number data-key="5">5</button>
+      <button data-number data-key="6">6</button>
+      <button class="operator" data-key="+">+</button>
+      <button data-number data-key="7">7</button>
+      <button data-number data-key="8">8</button>
+      <button data-number data-key="9">9</button>
+      <button class="operator" data-key="-">-</button>
+      <button data-number data-key="." class="span-two">.</button>
+      <button data-number data-key="0">0</button>
+      <button data-equals class="operator" data-key="Enter">=</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
