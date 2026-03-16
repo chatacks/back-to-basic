@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alice", serif;
+}
+
+:root {
+  --bg-color: #573824;
+  --bg-image-color: #57382481;
+  --surface-color: #f0e8c2;
+  --text-color-primary: #291b1a;
+  --text-color-secondary: #573a37;
+}
+
+body {
+  background: url(./images/bg-image.jpg) center/cover no-repeat;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  color: var(--text-color-primary);
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--text-color-primary);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-color-secondary);
+}
