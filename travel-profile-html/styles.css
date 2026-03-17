@@ -17,4 +17,66 @@
   /* texto */
   --text-color-primary: #313131;
   --text-color-secondary: #6c6c6c;
+  --heading: 700 2rem/1.25 'Poppins', sans-serif;
+  --text-md: 400 0.875rem/1.7 'Poppins', sans-serif;
+  --text-sm: 400 0.75rem/1.7 'Poppins', sans-serif;
+}
+
+.nav-header {
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--surface-color);
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo i {
+  font-size: 32px;
+  color: var(--brand-color);
+}
+
+.logo h4 {
+  color: var(--brand-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items>ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  font: var(--text-md);
+  align-items: center;
+  color: var(--text-color-secondary);
+}
+
+.nav-items>ul>li:first-child {
+  font-size: 20px;
+}
+
+.nav-items>ul>li {
+  transition: 0.5s ease;
+}
+
+.nav-items>ul>li>img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-items>ul>li:hover {
+  text-decoration: underline;
+  color: var(--brand-color);
+  cursor: pointer;
+}
+
+.nav-items>ul>li:first-child:hover {
+  text-decoration: none;
 }
