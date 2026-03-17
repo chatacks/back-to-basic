@@ -135,3 +135,30 @@
   font-size: 24px;
   text-align: center;
 }
+
+/* galeria */
+
+.gallery {
+  background-color: var(--background-color);
+  padding: 24px 32px;
+  display: flex;
+  flex-flow: wrap;
+  gap: 24px;
+}
+
+.gallery>img {
+  flex: 2 1 100px;
+}
+
+footer {
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  font: var(--text-sm);
+  color: var(--text-color-secondary);
+}
+
+footer>div {
+  display: flex;
+  gap: 8px;
+}
