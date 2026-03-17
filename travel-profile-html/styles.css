@@ -22,6 +22,7 @@
   --text-sm: 400 0.75rem/1.7 'Poppins', sans-serif;
 }
 
+/* header/nav */
 .nav-header {
   padding: 20px 32px;
   display: flex;
@@ -79,4 +80,58 @@
 
 .nav-items>ul>li:first-child:hover {
   text-decoration: none;
+}
+
+/* perfil  */
+.profile {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--surface-color);
+}
+
+.profile-content {
+  display: flex;
+  gap: 32px;
+}
+
+.profile-text-content {
+  max-width: 324px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-text-content>h1 {
+  font: var(--heading);
+  margin-bottom: 8px;
+}
+
+.profile-text-content>p {
+  font: var(--text-sm);
+  color: var(--text-color-secondary);
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.stats>div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stats>div>p {
+  font: var(--text-sm);
+  color: var(--text-color-secondary);
+}
+
+.stats>div>i {
+  color: var(--brand-color);
+  font-size: 24px;
+  text-align: center;
 }
