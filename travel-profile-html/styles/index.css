@@ -1,11 +1,17 @@
 @import url(global.css);
+@import url(responsiveness.css);
 
 /* header/nav */
+header {
+  width: 100%;
+  background-color: var(--surface-color);
+}
+
 .nav-header {
-  padding: 20px 32px;
+  padding-block: 20px;
   display: flex;
   justify-content: space-between;
-  background-color: var(--surface-color);
+
 }
 
 .logo {
@@ -62,9 +68,13 @@
 
 /* perfil  */
 .profile {
-  padding: 32px;
   display: flex;
+  padding-block: 32px;
   justify-content: space-between;
+}
+
+main>div:first-child {
+  width: 100%;
   background-color: var(--surface-color);
 }
 
@@ -117,18 +127,20 @@
 /* galeria */
 .gallery {
   background-color: var(--background-color);
-  padding: 24px 32px;
+  padding-block: 24px;
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .gallery>img {
-  flex: 2 1 100px;
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
 }
 
 footer {
-  padding: 24px 32px;
+  padding-block: 24px;
   display: flex;
   justify-content: space-between;
   font: var(--text-sm);

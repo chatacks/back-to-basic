@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+
+  div.nav-items>ul>li:nth-child(2),
+  div.nav-items>ul>li:nth-child(3) {
+    display: none;
+  }
+
+  .logo h4 {
+    font-size: 1.25rem;
+  }
+
+  section.profile {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  section.profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  div.profile-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  section.gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  section.gallery.container {
+    padding-inline: 16px;
+  }
+
+  section.gallery img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  footer {
+    padding-block: 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
