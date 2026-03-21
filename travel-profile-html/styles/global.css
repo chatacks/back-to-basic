@@ -21,3 +21,9 @@
   --text-md: 400 0.875rem/1.7 'Poppins', sans-serif;
   --text-sm: 400 0.75rem/1.7 'Poppins', sans-serif;
 }
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin: auto;
+}
