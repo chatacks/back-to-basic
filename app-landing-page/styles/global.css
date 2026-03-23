@@ -81,6 +81,27 @@ a {
   color: inherit;
 }
 
+a:hover {
+  background: var(--brand-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+i {
+  color: var(--text-color-secondary);
+  width: 24px;
+  height: 24px;
+}
+
+i:hover {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 ul[role="list"] {
   list-style: none;
 }
