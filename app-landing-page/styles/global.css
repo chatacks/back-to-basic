@@ -50,6 +50,8 @@ html {
   line-height: 1.6;
   color: var(--text-color-primary);
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -101,6 +103,7 @@ i:hover {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  cursor: pointer;
 }
 
 ul[role="list"] {
